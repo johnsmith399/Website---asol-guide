@@ -1,0 +1,77 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+	background-color: rgb(75, 75, 75, 0.5);
+	height: 100%;
+	margin-top: 40px;
+	width: 80vw;
+	border-radius: 20px;
+	border: solid white;
+	padding: 20px;
+}
+
+.section {
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.entry {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	margin-bottom: 20px;
+}
+
+.text {
+	flex: 1;
+	margin-right: 20px;
+}
+
+.image {
+	flex: 1;
+}
+
+.image img {
+	max-width: 100%;
+}
+
+h2 {
+	margin-bottom: 20px;
+	color: darkcyan; /* Turquoise color for headers */
+}
+
+h3 {
+	margin-top: 0;
+	margin-bottom: 10px;
+	color: darkcyan;
+}
+
+/* Additional styles for runes */
+.rune .text,
+.rune .image {
+	flex-basis: 50%;
+}
+
+/* Additional styles for summoner spells */
+.summoner .text,
+.summoner .image {
+	flex-basis: 50%;
+}
+
+.title-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100px;
+}
